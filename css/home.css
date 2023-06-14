@@ -1,0 +1,94 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+a {
+  text-decoration: none;
+}
+
+.content-for-all {
+  margin-top: 6%;
+}
+
+/* Website Name */
+a > .title {
+  font-size: 2.5em;
+}
+
+/* HOME Page */
+
+/* LOGIN PAge */
+.login-page {
+  overflow-x: hidden;
+}
+
+/* CONTACT PAGE */
+.contact-title {
+  margin-bottom: -35px;
+}
+
+/* FORM */
+.form-group {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 5%;
+}
+
+.all-form {
+  display: block;
+  width: 400px;
+}
+
+.form-group > input {
+  padding: 7px 2px;
+  width: 100%;
+}
+
+/* LOGO */
+.logo {
+  margin-top: 7%;
+  text-align: center;
+}
+
+.logo > a {
+  cursor: pointer;
+  text-decoration: none;
+}
+
+/* instagram logo */
+.bi-instagram {
+  color: #fb3958;
+  margin: 0 2px;
+}
+
+/* facebook logo */
+.bi-facebook {
+  color: #4267b2;
+  margin: 0 2px;
+}
+
+/* github logo */
+.bi-github {
+  color: #171515;
+  margin: 0 2px;
+}
+
+/* twitter logo */
+.bi-twitter {
+  color: #00acee;
+  margin: 0 2px;
+}
+
+/* THANK YOU PAGE */
+.content {
+  text-align: center;
+  margin-top: 5.5%;
+}
+
+.content > button > a {
+  text-decoration: none;
+  border: none;
+}
